@@ -42,7 +42,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Imini Docs',
+        title: 'Game Development Tutorials',
         logo: {
           alt: 'Imini Logo',
           src: 'img/logo.png',
