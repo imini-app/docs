@@ -12,5 +12,3 @@ This tutorial uses markdown.
 [markdown about](https://imini.app)
 
 ![image](/img/docusaurus.png)
-
-What is going on
