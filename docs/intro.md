@@ -12,3 +12,6 @@ This tutorial uses markdown.
 [markdown about](https://imini.app)
 
 ![image](/img/docusaurus.png)
+
+## Useful tutorials
+- [Markdown basics ▶](/docs/tutorial-markdown)
