@@ -2,16 +2,18 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome
 
-Hello, welcome to tutorials on how to create games on your own. All the tutorials here result in actual games hosted in imini.app.
+Greetings! Welcome to our tutorials on how to create games, online or offline, single or multiple players.
+All the tutorials here result in actual games hosted in imini.app.
 
-## Getting Started
+You can also view some of the code examples on our [public github repository](https://github.com/imini-app/multiple-player-colyseus-matter-phaser).
 
-This tutorial uses markdown.
-[markdown about](https://imini.app)
+## List of Featured Tutorials
+- [Markdown Tutorials](/docs/tutorial-markdown)
+- [Online multiple player game with colyseus, matter.js and phaser.js](/docs/tutorial-multiple-player/server)
 
-![image](/img/docusaurus.png)
+## Before you go
+Don't forget to come back and check out our blog from time to time to keep up with all the new tutorials we will share with you from time to time.
 
-## Useful tutorials
-- [Markdown basics ▶](/docs/tutorial-markdown)
+Also, you can star/watch our [example repository](https://github.com/imini-app/docs) for more updates
