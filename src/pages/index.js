@@ -16,7 +16,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/tutorial-multiple-player/server">
             Tutorial - Online Multiple Player Game using Colyseus, Matter.js, and Phaser.io - 30min ⏱️
           </Link>
         </div>

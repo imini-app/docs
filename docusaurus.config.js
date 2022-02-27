@@ -56,7 +56,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/imini-app/docs',
+            href: 'https://github.com/imini-app/multiple-player-colyseus-matter-phaser',
             label: 'Examples on Github',
             position: 'right',
           },
