@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'imini.app',
-  tagline: 'Documenting how we make Online games. Follow along.',
+  title: 'Tutorials For Game Developers',
+  tagline: 'We share our experiences of making fun to play single/multiple online games',
   url: 'https://docs.imini.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -52,12 +52,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'All Tutorials',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/imini-app/docs',
-            label: 'Github',
+            label: 'Examples on Github',
             position: 'right',
           },
         ],
@@ -69,13 +69,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'All Tutorials',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Demos',
             items: [
               {
                 label: 'Scratch Games',
@@ -89,10 +89,6 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/imini-app/docs',
               },
             ],
           },

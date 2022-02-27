@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Tutorial - Online Multiple Player Game using Colyseus, Matter.js, and Phaser.io - 30min ⏱️
           </Link>
         </div>
       </div>
