@@ -11,7 +11,7 @@ You can also view some of the code examples on our [public github repository](ht
 
 ## List of Featured Tutorials
 - [Markdown Tutorials](/docs/tutorial-markdown)
-- [Online multiple player game with colyseus, matter.js and phaser.js](/docs/tutorial-multiple-player/server)
+- [Online multiple player game with colyseus, matter.js and phaser.js](/docs/tutorial-multiple-player/server-colyseus)
 
 ## Before you go
 Don't forget to come back and check out our blog from time to time to keep up with all the new tutorials we will share with you from time to time.
