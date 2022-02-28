@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 1. Game Server using Colyseus.js
+# Server 1: Game Server using Colyseus.js
 Multiple player game is hard. But nowadays, there are some good framework out there you can use to
 quickly mock up your online game.
 
