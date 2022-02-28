@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# 2. Server side 2D physics game engine using Matter.js
+# Server 2: Server side 2D physics game engine using Matter.js
 
 <iframe src="/html/matter-example-1.html" width="600" height="400" scrolling="no" style={{overflow: "hidden"}}></iframe>
 
