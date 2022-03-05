@@ -80,7 +80,7 @@ const config = {
             items: [
               {
                 label: 'Scratch Games',
-                href: 'https://imini.app',
+                href: 'https://scratch.imini.app',
               },
             ],
           },
