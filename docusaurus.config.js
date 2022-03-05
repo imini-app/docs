@@ -8,11 +8,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Tutorials For Game Developers',
   tagline: 'We share our experiences of making fun to play single/multiple online games',
-  url: 'https://docs.imini.app',
+  url: 'https://www.imini.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-16x16.png',
   organizationName: 'imini.app', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
