@@ -6,6 +6,6 @@ tags: [xwill,hello]
 ---
 
 ## Hello From Xwill!
-Hi My Name Is Xwill. Hey, I am daddy!
+Hi My Name Is Xwill!
 
 <iframe src="/html/xwill.html" width="800" height="800" scrolling="no" style={{overflow: "auto"}}></iframe>
