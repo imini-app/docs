@@ -20,3 +20,26 @@ class Game(arcade.Window):
 
     
 ```
+
+### 2. Create Init And Setup
+```py title="Class Setup"
+
+    SCREEN_WIDTH = 1200
+    SCREEN_HEIGHT = 800
+    SCREEN_TITLE = "Arcade Window"
+
+    def __init__(self):
+        """Init"""
+
+        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, SCREEN_TITLE)
+
+        pass
+
+    def setup(self):
+        """Setup"""
+
+        arcade.set_background_color(arcade.color.OCEAN_BOAT_BLUE)
+
+        pass
+
+```
