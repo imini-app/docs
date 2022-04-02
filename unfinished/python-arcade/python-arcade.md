@@ -22,6 +22,7 @@ class Game(arcade.Window):
 ```
 
 ### 2. Create Init And Setup
+Don't Forget To Add SCREEN Properties
 ```py title="Class Setup"
 
     SCREEN_WIDTH = 1200
@@ -41,5 +42,29 @@ class Game(arcade.Window):
         arcade.set_background_color(arcade.color.OCEAN_BOAT_BLUE)
 
         pass
+
+```
+
+### 3. Create Draw And Update
+Make sure That You Have The Ending Code I Used
+```py title="Class Setup"
+    def on_draw(self):
+        """Draw"""
+
+        arcade.start_render()
+
+        pass
+
+    def on_update(self, delta_time):
+        """Update"""
+
+        pass
+
+
+if __name__ == "__main__":
+    window = Game()
+    window.setup()
+    arcade.run()
+
 
 ```
