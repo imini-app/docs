@@ -47,7 +47,7 @@ Don't Forget To Add SCREEN Properties
 
 ### 3. Create Draw And Update
 Make sure That You Have The Ending Code I Used
-```py title="Class Setup"
+```py title="Draw And Update"
     def on_draw(self):
         """Draw"""
 
@@ -68,3 +68,43 @@ if __name__ == "__main__":
 
 
 ```
+
+### Now You Got Code To Start Coding
+If You Want Any Additions Like Keyboard Commands There Is A List Of Them Below:
+
+```py title="Key Press"
+def on_key_press(self, key, modifiers):
+    """Key Press"""
+
+    pass
+```
+
+```py title="Key Release"
+def on_key_release(self, key, modifiers):
+    """Key Release"""
+
+    pass
+```
+
+```py title="Mouse Press"
+def on_mouse_press(self, x, y, button, modifiers):
+    """Mouse Press"""
+
+    pass
+```
+
+```py title="Mouse Release"
+def on_mouse_Release(self, x, y, button, modifiers):
+    """Mouse Release"""
+
+    pass
+```
+
+```py title="Mouse Drag"
+def on_mouse_drag(self, x, y, dx, dy, button, modifiers):
+    """Mouse Release"""
+
+    pass
+```
+
+This Is Not A Complete List Of Additional Commands Made By Arcade.
