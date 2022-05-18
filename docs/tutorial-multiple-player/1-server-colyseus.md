@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Server 1: Game Server using Colyseus.js
-Multiple player game is hard. But nowadays, there are some good framework out there you can use to
+multiplayer game is hard. But nowadays, there are some good framework out there you can use to
 quickly mock up your online game.
 
 One of server side framework that bases on node.js and is good to use is [colyseus.js](https://colyseus.io)
@@ -78,18 +78,18 @@ Also, you notice that in the schema, you can have variables, for example `engine
 And, you could add functions/methods to change the state variables inside the schema, for example `setBalls()`.
 
 :::tip Work on your schemas
-Use a well well defined sets of Schemas in colyseus is the most fundamental building blocks in your multiple player game.
+Use a well defined sets of Schemas in colyseus is the most fundamental building blocks in your multiplayer game.
 And usually, you will need a minimal of player schema and a state schema like the two examples above.
 :::
 
 ### 2. Room
-A room in a multiple player game is the place the clients share information with each other. It can have a lot of forms and each room
-can serve a different purposes.
+A room in a multiplayer game is the place the clients share information with each other. It can have a lot of forms and each room
+can serve a different purpose.
 
-For example, the most import room in a multiple player game is the game state room. You can also have some complimentary rooms,
+For example, the most important room in a multiplayer game is the game state room. You can also have some complimentary rooms,
 like a chat room where the clients can send/receive short messages from each other.
 
-Usually the room is the place where you manage how a client join, leave, etc.
+Usually the room is the place where you manage how a client joins, leave, etc.
 
 ```js title="A game state room example"
 export class MatterjsRoom extends Room<State> {
