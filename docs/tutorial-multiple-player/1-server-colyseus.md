@@ -89,7 +89,7 @@ can serve a different purpose.
 For example, the most important room in a multiplayer game is the game state room. You can also have some complimentary rooms,
 like a chat room where the clients can send/receive short messages from each other.
 
-Usually the room is the place where you manage how a client joins, leave, etc.
+Usually the room is the place where you manage how a client joins, leaves, etc.
 
 ```js title="A game state room example"
 export class MatterjsRoom extends Room<State> {
