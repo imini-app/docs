@@ -54,8 +54,9 @@ const config = {
             position: 'left',
             label: 'All Tutorials',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {href: 'https://scratch.imini.app', label: 'Scratch Games', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
+          { href: 'https://scratch.imini.app', label: 'Scratch Games', position: 'left' },
+          { href: 'https://phaser-examples.imini.app', label: 'Javascript Games', position: 'left' },
           {
             href: 'https://github.com/imini-app/multiple-player-colyseus-matter-phaser',
             label: 'Examples on Github',
