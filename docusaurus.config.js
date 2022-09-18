@@ -15,7 +15,9 @@ const config = {
   favicon: 'img/favicon-16x16.png',
   organizationName: 'imini.app', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
-
+  scripts: [
+    '/webp.js',
+  ],
   presets: [
     [
       'classic',
@@ -91,6 +93,15 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+            ],
+          },
+          {
+            title: 'Tools',
+            items: [
+              {
+                label: 'Webp to Png Converter',
+                to: '/webp-to-png',
               },
             ],
           },
