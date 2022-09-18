@@ -5,7 +5,6 @@ if (typeof Module !== 'undefined') {
 }
 
 export function decode(webp_data, canvas_id, fileName = 'download.png') {
-  console.log('aaa', Module, WebpToCanvas)
   // get the canvas to decode into
   var canvas = document.getElementById(canvas_id);
   if (canvas == null) return;
