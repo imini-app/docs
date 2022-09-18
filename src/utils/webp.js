@@ -1,7 +1,9 @@
-var WebpToCanvas = Module.cwrap('WebpToSDL', 'number', ['array', 'number']);
-Module = {
-  noInitialRun : true
-};
+var WebpToCanvas = {};
+
+if (typeof Module !== 'undefined') {
+  WebpToCanvas = Module.cwrap('WebpToSDL', 'number', ['array', 'number'])
+}
+
 export function decode(webp_data, canvas_id, fileName = 'download.png') {
   // get the canvas to decode into
   var canvas = document.getElementById(canvas_id);
