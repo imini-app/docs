@@ -16,7 +16,7 @@ const config = {
   organizationName: 'imini.app', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   scripts: [
-    '/webp.js',
+    '/webp-to-png/webp.js',
   ],
   presets: [
     [
