@@ -10,6 +10,11 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className={styles.announcementBanner}>
+        <Link to="https://swim-ontario-news.imini.app/" target="_blank" rel="noopener noreferrer">
+          Swim Ontario News - Stay updated with the latest swimming news and updates!
+        </Link>
+      </div>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
