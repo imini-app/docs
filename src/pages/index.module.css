@@ -21,22 +21,3 @@
   align-items: center;
   justify-content: center;
 }
-
-.announcementBanner {
-  background-color: rgba(255, 255, 255, 0.15);
-  padding: 0.75rem 1rem;
-  margin-bottom: 0;
-  text-align: center;
-  font-size: 0.95rem;
-  font-weight: 500;
-}
-
-.announcementBanner a {
-  color: #fff;
-  text-decoration: underline;
-}
-
-.announcementBanner a:hover {
-  color: #fff;
-  text-decoration: none;
-}

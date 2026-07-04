@@ -59,6 +59,7 @@ const config = {
           { to: '/blog', label: 'Blog', position: 'left' },
           { href: 'https://scratch.imini.app', label: 'Scratch Games', position: 'left' },
           { href: 'https://phaser-examples.imini.app', label: 'Javascript Games', position: 'left' },
+          { href: 'https://swim-ontario-news.imini.app', label: 'Swim Ontario News', position: 'left' },
           {
             href: 'https://github.com/imini-app/multiple-player-colyseus-matter-phaser',
             label: 'Examples on Github',
@@ -93,6 +94,15 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+            ],
+          },
+          {
+            title: 'News',
+            items: [
+              {
+                label: 'Swim Ontario News',
+                href: 'https://swim-ontario-news.imini.app',
               },
             ],
           },
