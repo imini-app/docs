@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Tutorials For Game Developers',
-  tagline: 'We share our experiences of making fun to play single/multiple online games',
+  title: 'imini.app — Tools & Resources',
+  tagline: 'Discover useful tools, tutorials, games, and news — all from imini.app',
   url: 'https://www.imini.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -44,7 +44,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Game Development Tutorials',
+        title: 'imini.app',
         logo: {
           alt: 'Imini Logo',
           src: 'img/logo.png',
