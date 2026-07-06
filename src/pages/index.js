@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Browse All Tutorials 📚
+            Browse All Tutorials
           </Link>
         </div>
       </div>
@@ -29,8 +29,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title="Game Development Tutorials | imini.app"
+      description="Step-by-step tutorials for building single and multiplayer online games with JavaScript, Python, Phaser, Colyseus, Matter.js, and more.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
