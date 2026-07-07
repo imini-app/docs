@@ -10,9 +10,9 @@ const FeatureList = [
     link: '/docs/intro',
   },
   {
-    title: 'Flight Price History',
-    description: 'Track how flight prices change day by day. Pick a route and departure date to find the best time to book — watch for price drops and compare nearby dates.',
-    link: 'https://flight-price-history.imini.app',
+    title: 'Flight Price Trend',
+    description: 'Find the best time to fly and book for long internationalflighs.',
+    link: 'https://flight-price-trend.imini.app',
   },
   {
     title: 'Scratch Games',
