@@ -49,24 +49,7 @@ const config = {
           alt: 'Imini Logo',
           src: 'img/logo.png',
         },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'All Tutorials',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
-          { href: 'https://scratch.imini.app', label: 'Scratch Games', position: 'left' },
-          { href: 'https://phaser-examples.imini.app', label: 'Javascript Games', position: 'left' },
-          { href: 'https://swim-ontario-news.imini.app', label: 'Swim Ontario News', position: 'left' },
-          { href: 'https://flight-price-history.imini.app', label: 'Flight Price History', position: 'left' },
-          {
-            href: 'https://github.com/imini-app/multiple-player-colyseus-matter-phaser',
-            label: 'Examples on Github',
-            position: 'right',
-          },
-        ],
+        items: [],
       },
       footer: {
         style: 'dark',
