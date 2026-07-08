@@ -59,16 +59,26 @@ function Feature({title, description, link}) {
   );
 }
 
-export default function HomepageFeatures() {
+export default function HomepageFeatures({ searchQuery }) {
+  const filtered = searchQuery
+    ? FeatureList.filter(f =>
+        f.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        f.description.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    : FeatureList;
+
   return (
     <section className={styles.features}>
       <div className="container">
         <h2 className={styles.sectionTitle}>Explore</h2>
         <div className="row">
-          {FeatureList.map((props, idx) => (
+          {filtered.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
+        {filtered.length === 0 && (
+          <p className={styles.noResults}>No tools found matching "{searchQuery}"</p>
+        )}
       </div>
     </section>
   );

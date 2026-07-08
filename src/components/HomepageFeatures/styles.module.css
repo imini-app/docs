@@ -54,3 +54,10 @@
   font-size: 1rem;
   opacity: 0.5;
 }
+
+.noResults {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-600);
+}
