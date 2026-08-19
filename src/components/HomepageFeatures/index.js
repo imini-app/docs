@@ -44,6 +44,11 @@ const FeatureList = [
     description: 'Free online tool that converts WebP images to PNG format — no uploads, runs entirely in your browser.',
     link: '/webp-to-png',
   },
+  {
+    title: '金瓶梅',
+    description: 'The classic Chinese novel Jin Ping Mei, available to read online.',
+    link: 'https://jin-ping-mei.imini.app/',
+  },
 ];
 
 function Feature({title, description, link}) {

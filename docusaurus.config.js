@@ -92,6 +92,10 @@ const config = {
                 label: 'Flight Price History',
                 href: 'https://flight-price-history.imini.app',
               },
+              {
+                label: '金瓶梅',
+                href: 'https://jin-ping-mei.imini.app/',
+              },
             ],
           },
           {
